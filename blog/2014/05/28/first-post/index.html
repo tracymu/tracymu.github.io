@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Creating an Octopress Blog - Winter of Code</title>
+  <meta name="author" content="Tracy Mu and Catherine Jones">
+
+  
+  <meta name="description" content="Creating an Octopress Blog written May 28th, 2014 Catherine Jones and I (Tracy Mu Sung) are getting geared up to participate in the Rails Girls &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tracymu.github.io/blog/2014/05/28/first-post">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Winter of Code" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Creating an Octopress Blog</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2014-05-28T16:19:30+10:00" pubdate data-updated="true">May 28<span>th</span>, 2014</time>
+          
+
+
+        </div>
+        <p>Catherine Jones and I (Tracy Mu Sung) are getting geared up to participate in the Rails Girls Summer of Code (or down here, the Winter of Code), and have prepared this blog as the repository for our daily logs and learnings.</p>
+
+
+<p>The first lesson was actually in how to set up this blog! It is using Octopress, which is a free blogging framework for &#8216;hackers&#8217;. To run the blog you don&#8217;t use a special CMS UI, instead you create the blog posts in your text editor, manage the blog via the terminal and in this case we&#8217;re hosting on GitHub. After you write new posts in your editor you update your blog using the rake tasks they&#8217;ve provided. </p>
+
+
+<h2>Using Octopress - for Beginners</h2>
+
+
+<ul>
+    <li>You need to have Git installed on your computer, and then you can follow these simple install <a href="http://octopress.org/docs/setup/">instructions</a> to clone the Octopress repository onto your computer.</li>
+    <li>Deploy on the hosting site of your choosing. We&#8217;re using <a href="http://octopress.org/docs/deploying/github/">GitHub</a> but they also have <a href="http://octopress.org/docs/deploying/">instructions</a> for Heroku and Rsync</a>.</li>
+    <li>You can open up your new Octopress folder and browse around the files. There are some instructions <a href="http://octopress.org/docs/blogging/">here</a> on how to create new blog posts and pages. Basically they are a set of rake tasks which are pretty straight forward. The only thing I didn&#8217;t realise was that to make your blog posts and pages actually live not only do you need to </br>
+        <code> $ git push origin source</code></br>
+        You also need to</br>
+            <code> $ rake deploy</code></li>
+    <li>Before you make any pages live, though you probably want to check them with </br>
+        <code>$ rake preview</code></br>
+        Then you can view them at localhost:4000</li>
+    <li>Another thing we&#8217;ve learnt is that if you want new pages to be in your top nav, e.g. an about page, you can edit the nav in source/_includes/custom/navigation.html</li>
+</ul>
+
+
+<p>We&#8217;ll be sure to add to this list of Octopress tips as we get more experience using the platform</p>
+
+
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+
+        
+          <a class="pull-right" href="/blog/2014/06/09/using-irc/" title="Next Post: Using IRC">Next: Using IRC &raquo;</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
