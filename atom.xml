@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Winter of Code]]></title>
+  <link href="http://tracymu.github.io/atom.xml" rel="self"/>
+  <link href="http://tracymu.github.io/"/>
+  <updated>2014-06-09T10:59:27+10:00</updated>
+  <id>http://tracymu.github.io/</id>
+  <author>
+    <name><![CDATA[Tracy Mu and Catherine Jones]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using IRC]]></title>
+    <link href="http://tracymu.github.io/blog/2014/06/09/using-irc/"/>
+    <updated>2014-06-09T10:48:10+10:00</updated>
+    <id>http://tracymu.github.io/blog/2014/06/09/using-irc</id>
+    <content type="html"><![CDATA[<p>As part of our project we are using IRC, (Internet Relay Chat). IRC is an instant messaging system that has a Spree channel, where people working on the Spree open source project can go and talk to each other.</p>
+
+
+<p>To use IRC you can download a desktop application or you can go to <a href="webchat.freenode.net">Freenode</a>. Our username is spree-girls, and some of the simple commands we might use are:</p>
+
+
+<ul>
+    <li><code>/join spree</code> - to go to the Spree channel</li>
+    <li><code>/msg username message</code> - to message a particular user privately</li>
+    <li><code>/notice username message</code> - to message a particular user publicly</li>
+    <li><code>/help</code> - obviously for help</li>
+</ul>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Creating an Octopress Blog]]></title>
+    <link href="http://tracymu.github.io/blog/2014/05/28/first-post/"/>
+    <updated>2014-05-28T16:19:30+10:00</updated>
+    <id>http://tracymu.github.io/blog/2014/05/28/first-post</id>
+    <content type="html"><![CDATA[<p>Catherine Jones and I (Tracy Mu Sung) are getting geared up to participate in the Rails Girls Summer of Code (or down here, the Winter of Code), and have prepared this blog as the repository for our daily logs and learnings.</p>
+
+
+<p>The first lesson was actually in how to set up this blog! It is using Octopress, which is a free blogging framework for &#8216;hackers&#8217;. To run the blog you don&#8217;t use a special CMS UI, instead you create the blog posts in your text editor, manage the blog via the terminal and in this case we&#8217;re hosting on GitHub. After you write new posts in your editor you update your blog using the rake tasks they&#8217;ve provided. </p>
+
+
+<h2>Using Octopress - for Beginners</h2>
+
+
+<ul>
+    <li>You need to have Git installed on your computer, and then you can follow these simple install <a href="http://octopress.org/docs/setup/">instructions</a> to clone the Octopress repository onto your computer.</li>
+    <li>Deploy on the hosting site of your choosing. We&#8217;re using <a href="http://octopress.org/docs/deploying/github/">GitHub</a> but they also have <a href="http://octopress.org/docs/deploying/">instructions</a> for Heroku and Rsync</a>.</li>
+    <li>You can open up your new Octopress folder and browse around the files. There are some instructions <a href="http://octopress.org/docs/blogging/">here</a> on how to create new blog posts and pages. Basically they are a set of rake tasks which are pretty straight forward. The only thing I didn&#8217;t realise was that to make your blog posts and pages actually live not only do you need to </br>
+        <code> $ git push origin source</code></br>
+        You also need to</br>
+            <code> $ rake deploy</code></li>
+    <li>Before you make any pages live, though you probably want to check them with </br>
+        <code>$ rake preview</code></br>
+        Then you can view them at localhost:4000</li>
+    <li>Another thing we&#8217;ve learnt is that if you want new pages to be in your top nav, e.g. an about page, you can edit the nav in source/_includes/custom/navigation.html</li>
+</ul>
+
+
+<p>We&#8217;ll be sure to add to this list of Octopress tips as we get more experience using the platform</p>
+
+]]></content>
+  </entry>
+  
+</feed>
