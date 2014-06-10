@@ -9,7 +9,7 @@ author: "TracyMu"
 
 <p>Catherine Jones and I (Tracy Mu Sung) are getting geared up to participate in the Rails Girls Summer of Code (or down here, the Winter of Code), and have prepared this blog as the repository for our daily logs and learnings.</p>
 <p>The first lesson was actually in how to set up this blog! It is using Octopress, which is a free blogging framework for 'hackers'. To run the blog you don't use a special CMS UI, instead you create the blog posts in your text editor, manage the blog via the terminal and in this case we're hosting on GitHub. After you write new posts in your editor you update your blog using the rake tasks they've provided. </p>
-<h2>Using Octopress - for Beginners</h2>
+<h2>Using Octopress - for Beginners - CHECK IT OUT</h2>
 <ul class="list-style">
 	<li>You need to have Git installed on your computer, and then you can follow these simple install <a href="http://octopress.org/docs/setup/">instructions</a> to clone the Octopress repository onto your computer.</li>
 	<li>Deploy on the hosting site of your choosing. We're using <a href="http://octopress.org/docs/deploying/github/">GitHub</a> but they also have <a href="http://octopress.org/docs/deploying/">instructions</a> for Heroku and Rsync</a>.</li>
