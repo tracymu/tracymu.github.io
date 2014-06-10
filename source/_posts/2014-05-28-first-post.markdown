@@ -27,10 +27,12 @@ your blog using the rake tasks they've provided.
 and then you can follow these simple install
 [instructions](http://octopress.org/docs/setup/) to clone the
 Octopress repository onto your computer.
+
 * Deploy on the hosting site of your choosing. We're using
 [GitHub](http://octopress.org/docs/deploying/github/)
 but they also have [instructions](http://octopress.org/docs/deploying/)
 for Heroku and Rsync.
+
 * You can open up your new Octopress folder and browse around the files.
 There are some instructions [here](http://octopress.org/docs/blogging/)
 on how to create new blog posts and pages. Basically they are a set of
@@ -43,6 +45,7 @@ with `$ rake preview`. Then you can view them at `http://localhost:4000`
 
 * Another thing we've learnt is that if you want new pages to be in your top nav,
 e.g. an about page, you can edit the nav in source/_includes/custom/navigation.html
+
 * To enable multiple users to write for your blog, you add them as a contributor to
 your repo, and then we followed the steps on [this blog](http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/)
 

@@ -14,5 +14,5 @@ is spree-girls, and some of the simple commands we might use are:
 
 * `/join spree` - to go to the Spree channel
 * `/msg username message` - to message a particular user privately
-* `/notice username message` - to message a particular user publicly</li>
-*	`/help` - obviously for help
+* `/notice username message` - to message a particular user publicly
+* `/help` - obviously for help
