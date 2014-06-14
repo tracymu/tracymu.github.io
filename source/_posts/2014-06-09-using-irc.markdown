@@ -6,12 +6,13 @@ comments: true
 categories:
 author: 'TracyMu'
 ---
-<p>As part of our project we are using IRC, (Internet Relay Chat). IRC is an instant messaging system that has a Spree channel, where people working on the Spree open source project can go and talk to each other.</p>
-<p>To use IRC you can download a desktop application or you can go to <a href="webchat.freenode.net">Freenode</a>. Our username is spree-girls, and some of the simple commands we might use are:</p>
-<ul>
-	<li><code>/join spree</code> - to go to the Spree channel</li>
-	<li><code>/msg username message</code> - to message a particular user privately</li>
-	<li><code>/notice username message</code> - to message a particular user publicly</li>
-	<li><code>/help</code> - obviously for help</li>
-</ul>
+As part of our project we are using IRC, (Internet Relay Chat). IRC is an instant messaging system that has
+a Spree channel, where people working on the Spree open source project can go and talk to each other.
 
+To use IRC you can download a desktop application or you can go to [Freenode](webchat.freenode.net), our username
+is spree-girls, and some of the simple commands we might use are:
+
+* `/join spree` - to go to the Spree channel
+* `/msg username message` - to message a particular user privately
+* `/notice username message` - to message a particular user publicly
+* `/help` - obviously for help
