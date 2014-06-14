@@ -2,6 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://tracymu.github.io/blog/2014/05/28/first-post/</loc>
+<<<<<<< HEAD
         <lastmod>2014-06-09T13:01:36+10:00</lastmod>
     </url>
     <url>
@@ -27,5 +28,36 @@
     <url>
         <loc>http://tracymu.github.io/robots.txt</loc>
         <lastmod>2014-06-09T13:01:36+10:00</lastmod>
+=======
+        <lastmod>2014-06-10T18:19:08+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tracymu.github.io/blog/2014/06/09/using-irc/</loc>
+        <lastmod>2014-06-10T18:19:08+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tracymu.github.io/blog/2014/06/13/what-is-yaml-and-why-do-we-use-it/</loc>
+        <lastmod>2014-06-13T21:39:02+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tracymu.github.io/about/</loc>
+        <lastmod>2014-06-10T13:35:49+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tracymu.github.io/blog/archives/</loc>
+        <lastmod>2014-06-13T21:39:02+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tracymu.github.io/</loc>
+        <lastmod>2014-06-13T21:39:02+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tracymu.github.io/posts/</loc>
+        <lastmod>2014-06-13T21:39:02+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tracymu.github.io/robots.txt</loc>
+        <lastmod>2014-06-10T13:35:49+10:00</lastmod>
+>>>>>>> 183514a2dd3011b1b4dfba930cabada6d37fce1e
     </url>
 </urlset>
